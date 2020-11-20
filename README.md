@@ -19,3 +19,15 @@ COPY entrypoint.sh /usr/bin/
 RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
 ```
+
+# bootstrap
+やってなかったら
+$ yarn (install)
+
+$ yarn add jquery bootstrap popper.js
+
+```application.html.slim
+```
+
+参考
+(https://yukitoku-sw.hatenablog.com/entry/2020/01/16/224422)
